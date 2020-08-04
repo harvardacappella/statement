@@ -23,6 +23,19 @@ body {
 	position: relative;
 }
 
+#grouptable {
+	text-align: center;
+	border-top-style: solid;
+}
+
+td {
+	padding-top: 10px;
+}
+
+#links {
+	text-align: center;
+}
+
 .link {
 	text-align: center;
 	font-size: 24;
@@ -32,6 +45,22 @@ body {
 	line-height: 50px;
 	border-style: solid;
 	border-width: 1;
+	cursor: pointer;
+
+	transition: 0.3s;
+}
+
+#link-email:hover {
+	background-color: #888888;
+	color: white;
+}
+#link-instagram:hover {
+	background-color: #fb5149;
+	color: white;
+}
+#link-facebook:hover {
+	background-color: blue;
+	color: white;
 }
 
 .indent {
