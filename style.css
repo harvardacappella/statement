@@ -32,8 +32,13 @@ td {
 	padding-top: 10px;
 }
 
-#links {
+#links, #announcement {
 	text-align: center;
+}
+
+#announcement {
+	background-color: #d43126;
+	color: white;
 }
 
 .link {
@@ -61,6 +66,10 @@ td {
 #link-facebook:hover {
 	background-color: blue;
 	color: white;
+}
+#link-drive:hover {
+	background-color: white;
+	color: #d43126;
 }
 
 .indent {
